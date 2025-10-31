@@ -212,3 +212,4 @@ dataset/*
 # But do not ignore the folder itself (so we can unignore specific files)
 !dataset/.gitkeep
 !dataset/cleaned_bankruptcy_data.csv
+!dataset/basic_encoded_bankruptcy_data.csv
