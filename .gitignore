@@ -206,5 +206,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-dataset/
+# Ignore everything in dataset folder
+dataset/*
+
+# But do not ignore the folder itself (so we can unignore specific files)
+!dataset/.gitkeep
 !dataset/cleaned_bankruptcy_data.csv
